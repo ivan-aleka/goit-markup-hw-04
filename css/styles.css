@@ -146,9 +146,16 @@ position: relative;
 /**********Opening Section-one */
 .section-one {
   display: block;
-  background-color: #2e2f42;
+  /* background-color: #2e2f42; */
   padding-bottom: 188px;
   padding-top: 188px;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/section_one_people_office.jpg);
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-one-main-title {
@@ -177,6 +184,7 @@ position: relative;
   height: 56px;
   margin: 0 auto;
   border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-service-button:hover,
